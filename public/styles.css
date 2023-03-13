@@ -70,3 +70,16 @@ button {
     border: none;
     padding: 1% 2%;
 }
+
+/* @media */
+@media (max-width: 1000px) {
+    .app-div{
+        width: 50%;
+    }
+  }
+
+@media (max-width: 500px) {
+.app-div{
+    width: 90%;
+}
+}
