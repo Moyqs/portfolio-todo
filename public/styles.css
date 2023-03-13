@@ -1,0 +1,72 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #96bdf8;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(59, 59, 59);
+
+}
+
+.app-div {
+    background-color: #f2f8ff;
+    width: 30%;
+    padding: 1% 2%;
+    margin: auto;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* title */
+.title {
+    margin-bottom: 20px;
+}
+
+/* Activity */
+.activity-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4% 3.7%;
+}
+
+.activity {
+    display: inline-block;
+    margin: 0;
+    font-weight: 300;
+}
+
+.delete-btn {
+    position: relative;
+    right: 0;
+}
+
+/* input */
+#text-field {
+    border: 2px solid transparent;   
+    outline: none;
+    border-radius: 5px;
+    width: 80%;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+#text-field:focus {
+    border: 1px solid #718cb5;
+    box-shadow: 0 0 4px rgba(81, 203, 238, 0.8);
+  }
+
+button {
+    color: white;
+    background-color: #9ab7e2;
+    border-radius: 5px;
+    border: none;
+    padding: 1% 2%;
+}
